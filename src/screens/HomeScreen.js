@@ -10,10 +10,17 @@ const HomeScreen = ({ navigation}) => {
       <Button
         onPress={() => navigate('Components')}
         title="Go to Components Demo"
+        color="green"
       />
       <Button
         onPress={() => navigate('List')}
         title="Go to List Demo"
+        color="black"
+      />
+      <Button
+        onPress={() => navigate('Image')}
+        title="Go to Image Demo"
+        color="red"
       />
     </View>
   );
@@ -21,8 +28,8 @@ const HomeScreen = ({ navigation}) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
-  }
+    fontSize: 30,
+  },
 });
 
 export default HomeScreen;
