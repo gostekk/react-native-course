@@ -35,7 +35,12 @@ const HomeScreen = ({ navigation}) => {
       <Button
         onPress={() => navigate('Square')}
         title="Go to Square Demo"
-        color="orange"
+        color="lime"
+      />
+      <Button
+        onPress={() => navigate('Text')}
+        title="Go to Text Demo"
+        color="cyan"
       />
     </View>
   );
