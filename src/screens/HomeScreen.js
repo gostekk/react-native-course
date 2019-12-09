@@ -42,6 +42,11 @@ const HomeScreen = ({ navigation}) => {
         title="Go to Text Demo"
         color="cyan"
       />
+      <Button
+        onPress={() => navigate('Box')}
+        title="Go to Box Demo"
+        color="orange"
+      />
     </View>
   );
 };
